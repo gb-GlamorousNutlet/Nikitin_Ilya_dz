@@ -12,6 +12,5 @@ for i in number_list:
     for j in range(0, len(i)):
         num += int(i[j])
     if (num % 7) == 0:
-        print(i)
         num_sum += int(i)
 print(num_sum)
